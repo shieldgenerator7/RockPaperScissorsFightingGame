@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-[CreateAssetMenu(fileName = "Combo", menuName = "Combo")]
-public class Combo : ScriptableObject
+using System.Collections.Generic;
+
+
+[System.Serializable]
+public class Combo
 {
     public List<Move> moves;
 }
