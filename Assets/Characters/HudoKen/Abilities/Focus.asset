@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8104cffbef400814fab983d00eccbc08, type: 3}
+  m_Name: Focus
+  m_EditorClassIdentifier: 
+  name: Focus
+  description: Empower your next move
+  passive: 0
+  combos:
+  - moves: 020000000000000000000000
+  - moves: 000000000200000000000000
+  - moves: 000000000000000002000000
+  script: empower 1

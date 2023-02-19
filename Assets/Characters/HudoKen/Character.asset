@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f9e00b64323e54bbdb3c9b40ee086d, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  name: HudoKen
+  description: Classic hard-hitting fighting game character
+  maxHealth: 10
+  abilities:
+  - {fileID: 11400000, guid: b34f9398cc6ac3d4dad87f1565c85217, type: 2}
+  - {fileID: 11400000, guid: 00c702f74ec1a304f88c74d92f39c1e2, type: 2}
+  - {fileID: 11400000, guid: a6b2d59fd720f444e86cca1c2d8bdd05, type: 2}
+  - {fileID: 11400000, guid: 4a665e60d97d5304ead43bf03626332c, type: 2}
